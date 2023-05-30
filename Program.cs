@@ -13,7 +13,10 @@ namespace GenricMethod
             Testclass1 testClass1 = new Testclass1();
             float result1 = testClass1.FloatCompare(1.1f, 2.2f, 3.3f);
             Console.WriteLine( result1 );
-          
+           
+            TestClass2 testClass2 = new TestClass2();
+            string result2 = testClass2.stringCompare("Ayush", "Trisha", "Kavya");
+            Console.WriteLine( result2 );
         }
     }
 }
