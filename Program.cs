@@ -17,6 +17,14 @@ namespace GenricMethod
             TestClass2 testClass2 = new TestClass2();
             string result2 = testClass2.stringCompare("Ayush", "Trisha", "Kavya");
             Console.WriteLine( result2 );
+
+            TestClass3 testClass3 = new TestClass3();
+            int result3 = testClass3.CompareAll<int>(3, 4, 5);
+            float result4 =testClass3.CompareAll(1.1f, 2.2f, 3.3f);
+            string result5 = testClass3.CompareAll("Parth", "Ayush", "Kavya");
+            Console.WriteLine(result3);
+            Console.WriteLine(result4);
+            Console.WriteLine(result5);
         }
     }
 }
