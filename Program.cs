@@ -7,7 +7,7 @@ namespace GenricMethod
         static void Main(string[] args)
         {
             TestClass testClass = new TestClass();
-            int result = testClass.IntCompare(3, 4, 2);
+            int result = testClass.IntCompare(3, 4, 5);
           
             Console.WriteLine( result );
           
