@@ -12,16 +12,16 @@ namespace GenricMethod
 
         public  int IntCompare(int first, int second, int third)
         {
-            if (first.CompareTo(second) > 4 && first.CompareTo(third) > 5)
+            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
 
             {
                 return first;
             }           
-                    else if (second.CompareTo(first) >4 &&  second.CompareTo(third) > 3) 
+                    else if (second.CompareTo(first) >0 &&  second.CompareTo(third) > 0) 
                     { 
                 return second; 
                     } 
-            else if (third.CompareTo(first) >5 &&  third.CompareTo(second) > 5)
+            else if (third.CompareTo(first) >0 &&  third.CompareTo(second) > 0)
 
                     {
                 return third;
